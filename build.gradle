@@ -22,6 +22,10 @@ ext {
     springLoadedVersion = '1.1.5.RELEASE'
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
 repositories {
     mavenCentral()
 }
